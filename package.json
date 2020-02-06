@@ -1,18 +1,24 @@
 {
-    "name": "REST-SERVER",
+    "name": "rest-server",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+
+        "start": "node server/index.js",
         "dev": "nodemon ./server/index.js"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "bcrypt": "^3.0.6",
         "express": "^4.17.1",
+        "install": "^0.13.0",
         "mongoose": "^5.8.11",
-        "morgan": "^1.9.1"
+        "mongoose-unique-validator": "^2.0.3",
+        "morgan": "^1.9.1",
+        "node-pre-gyp": "^0.14.0",
+        "underscore": "^1.9.2"
     }
 }
